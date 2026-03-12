@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="demo" cellspacing="2px" cellpadding="2px" border="2px solid black">
+
+    </table>
+    <script>
+        const sub = {
+
+  FSD: [
+
+    { Topic: "HTML", course: "Beginner", content: ["tags","table","form"] },
+
+    { Topic: "CSS", course: "Beginner", content: ["tags","table","form"] }
+
+  ]
+
+};
+        x = document.getElementById('demo')
+        x.innerHTML ='<tr> <th> Topic </th> <th> Course </th> <th> Content </th> </tr>'
+        for(i of sub.FSD){
+            x.innerHTML+=`<tr>
+                <td>${i.Topic}</td>
+                <td>${i.course}</td>
+                <td>${i.content.join(",")}</td> 
+            </tr>`
+        }
+    </script>
+</body>
+</html>
