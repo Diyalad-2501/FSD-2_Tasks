@@ -1,0 +1,3 @@
+8 9 0 -1 3 -8 7 6
+Sorted array: -1,-8,0,3,6,7,8,9
+Maximum number: 9

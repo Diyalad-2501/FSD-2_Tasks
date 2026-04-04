@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f(){
+            const a ={"name":"xyz","age":"17","dob":"1997-03-14"}
+            date = new Date(a.dob)
+
+            console.log(date)
+            document.getElementById('demo').innerHTML = date
+        }
+    </script>
+</head>
+<body>
+    <button onclick="f()">Show button</button>
+    <p id="demo"></p>
+</body>
+</html>
