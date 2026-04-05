@@ -1,0 +1,3 @@
+[{"name":"circle","diameter":8},{"name":"sqaure","side":9}]
+Perimeter of circle : 25.12
+Perimeter of sqaure : 36
